@@ -1,4 +1,4 @@
-//Problem-1
+
 function calculateMoney(ticketSale) {
 
     if (ticketSale < 0) {
@@ -13,7 +13,8 @@ function calculateMoney(ticketSale) {
     const finalAmount = totalEarn - fixedKoros;
     return finalAmount;
 }
-//Problem-2
+
+
 function checkName(name) {
     if (typeof name !== 'string') {
         return "invalid";
@@ -27,7 +28,8 @@ function checkName(name) {
         return "Bad Name";
     }
 }
-//Problem-3
+
+
 function deleteInvalids(arr) {
 
     if (!Array.isArray(arr)) {
@@ -43,7 +45,6 @@ function deleteInvalids(arr) {
     return filteredArray;
 }
 
-//Problem-4
 function password(obj) {
 
     if (!obj.siteName || typeof obj.siteName !== 'string') {
@@ -65,7 +66,6 @@ function password(obj) {
     return final;
 }
 
-//Problem-5
 function monthlySavings(payments, livingCost) {
 
     if (!Array.isArray(payments) || typeof livingCost !== 'number') {
